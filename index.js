@@ -23,13 +23,7 @@ const def = definitions => mod => {
   Object
     .keys(mod)
     .filter(it => typeof mod[it] === 'function') // TODO: use get
-    .forEach((it) => {
-      const definition = definitions[it];
-
-      if (!definition) return;
-
-      mod[it].__pamt = definition;
-    });
+    .forEach(it => (mod[it].__pamt = definitions[it]));
 
   return pamt(mod);
 };
