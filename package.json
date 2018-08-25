@@ -1,0 +1,26 @@
+{
+  "name": "pamt",
+  "version": "0.0.1",
+  "description": "A simple javascript library for function parameter type definition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schermannj/pamt.git"
+  },
+  "keywords": [
+    "js",
+    "parameter",
+    "function",
+    "types",
+    "definition"
+  ],
+  "author": "V.Sheruda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schermannj/pamt/issues"
+  },
+  "homepage": "https://github.com/schermannj/pamt#readme"
+}
